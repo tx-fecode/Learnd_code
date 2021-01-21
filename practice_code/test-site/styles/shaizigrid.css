@@ -1,0 +1,293 @@
+.allside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+.wrapper1 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+}
+.dian11 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 75px;
+    left: 75px;
+}
+
+.wrapper2 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+}
+.dian21 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.dian22 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+.wrapper3 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dian31 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.dian32 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 10px;
+
+}
+.dian33 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 130px;
+    left: 10px;
+
+}
+
+.wrapper4{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.dian41 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.dian42 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+}
+.dian43 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+}
+.dian44 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+}
+
+.wrapper5 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dian51 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.dian52 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 10px;
+
+}
+.dian53 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+.dian54 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 10px;
+
+}
+.dian55 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: purple;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 75px;
+
+}
+
+.wrapper6 {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background: transparent;
+    border-radius: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:15px;
+}
+
+.dian61{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    top: 12.5px;
+    left: 25px;
+}
+.dian62{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    top: 12.5px;
+    left: 10px;
+}
+.dian63{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    left: 25px;
+}
+.dian64{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: rgb(128, 0, 90);
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+.dian65{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: rgb(49, 0, 128);
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+}
+.dian66{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+}
+  
